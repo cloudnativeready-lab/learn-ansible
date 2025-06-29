@@ -1,4 +1,4 @@
 - name: Role demo
   hosts: all 
   roles:
-    - sample
+  - sample
