@@ -5,5 +5,5 @@
     a: 100 
   tasks:
   - name : print variable 
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: a - {{ a }}
