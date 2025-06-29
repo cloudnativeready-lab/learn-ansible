@@ -2,7 +2,9 @@
   hosts: localhost 
   connection: local
   vars:
-    a: 100 
+    a: 100
+  roles:
+    - sample
   tasks:
   - name : print variable 
     ansible.builtin.debug:
