@@ -1,5 +1,5 @@
 - name: sample playbook
-  host: all 
+  hosts: all 
   tasks:
   - name: ping 
     ansible.builtin.ping:
