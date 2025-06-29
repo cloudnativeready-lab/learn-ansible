@@ -6,4 +6,4 @@
   tasks:
   - name : print variable 
     ansible.bultin.debug:
-      msg a - {{ a }}
+      msg: a - {{ a }}
